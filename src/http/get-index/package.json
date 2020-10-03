@@ -1,0 +1,7 @@
+{
+  "name": "get-index",
+  "version": "1.0.0",
+  "dependencies": {
+    "@begin/data": "latest"
+  }
+}
