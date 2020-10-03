@@ -1,7 +1,7 @@
 {
   "name": "begin-app",
-  "version": "0.0.0",
-  "description": "Begin scheduled functions example app",
+  "version": "0.0.1",
+  "description": "A simple service to ping a host periodically",
   "scripts": {
     "start": "npx sandbox",
     "test": "cross-env NODE_ENV=testing PORT=6666 tape test/*-test.js ./test/**/*-test.js | tap-spec"
@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "cross-env": "^7.0.2",
+    "got": "^11.7.0",
+    "pino": "^6.6.1",
     "tap-spec": "^5.0.0",
     "tape": "^5.0.1",
     "tiny-json-http": "^7.2.2"

@@ -5,7 +5,7 @@ begin-app
 get /
 
 @scheduled
-backup rate(6 hours)
+ping rate(1 minute)
 
 @tables
 data
